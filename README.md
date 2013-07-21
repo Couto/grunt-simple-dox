@@ -1,6 +1,6 @@
 # grunt-simple-dox
 
-> Simply run dox to generate the json files
+> Simply run [dox](https://github.com/visionmedia/dox) to generate the json files
 
 ## Getting Started
 This plugin requires Grunt.
@@ -37,17 +37,8 @@ grunt.initConfig({
 
 ### Options
 
-#### options.separator
-Type: `String`
-Default value: `',  '`
+Please check [dox](https://github.com/visionmedia/dox) options.
 
-A string value that is used to do something with whatever.
-
-#### options.punctuation
-Type: `String`
-Default value: `'.'`
-
-A string value that is used to do something else with whatever else.
 
 ### Usage Examples
 
@@ -72,8 +63,7 @@ In this example, custom options are used to do something else with whatever else
 grunt.initConfig({
   simple_dox: {
     options: {
-      separator: ': ',
-      punctuation: ' !!!',
+      raw: true,
     },
     files: {
       'dest/default_options': ['src/testing', 'src/123'],

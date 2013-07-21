@@ -1,0 +1,39 @@
+{
+  "name": "grunt-simple-dox",
+  "version": "0.0.0",
+  "description": "Simply run dox to generate the json files",
+  "homepage": "https://github.com/Couto/grunt-simple-dox",
+  "bugs": "https://github.com/Couto/grunt-simple-dox/issues",
+  "author": {
+    "name": "Luis Couto",
+    "email": "couto@15minuteslate.net",
+    "url": "http://couto.xxx"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Couto/grunt-simple-dox"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.2.0",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-clean": "~0.4.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-contrib-jshint": "~0.2.0",
+    "grunt-contrib-nodeunit": "~0.1.2"
+  }
+}

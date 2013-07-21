@@ -1,6 +1,6 @@
 {
   "name": "grunt-simple-dox",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Simply run dox to generate the json files",
   "homepage": "https://github.com/Couto/grunt-simple-dox",
   "bugs": "https://github.com/Couto/grunt-simple-dox/issues",
